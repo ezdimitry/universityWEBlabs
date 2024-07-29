@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+body[background] {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+
+.ty {
+    list-style-type: none;
+
+}
+.ty::before {
+    content: "\2665";
+    margin-right: 8px;
+}
+
+nav {
+    margin: 0px;
+    background-color: white;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navItems {
+    color: red;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+.dotaImage {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.img {
+    height: 280px;
+}
+.ved {
+    text-align: center;
+}
+.in {
+    margin: 5px;
+    font-size: 25px;
+}
+
+
+h2 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.role {
+    margin-bottom: 39px;
+}
+.tryn {
+    margin-bottom: 15px;
+}
+.pers {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.pikcha {
+    height: 280px;
+
+}
+.text {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.spisok {
+    display: flex;
+    flex-direction: row;
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 150px;
+}
+
+footer {
+    background-color: white;
+    min-height: 35px;
+}
+
+table {
+    margin-top: 20px;
+}
+b {
+    font-size: 30px;
+}
+th {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
